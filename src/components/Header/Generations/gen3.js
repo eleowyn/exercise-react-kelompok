@@ -1,5 +1,5 @@
 const Gen3 = () => {
-    console.log("Gen 3")
+    return <h2>Gen 3</h2>
   };
 
 export default Gen3;
