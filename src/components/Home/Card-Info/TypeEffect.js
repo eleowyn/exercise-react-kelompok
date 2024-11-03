@@ -1,5 +1,5 @@
 const TypeEffect = () => {
-    return <h2>Hello Logo</h2>
+    return <h2>Hello TypeEffect</h2>
 };
 
 export default TypeEffect;

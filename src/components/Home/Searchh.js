@@ -1,1 +1,1 @@
-TEXT
+console.log("text")

@@ -1,13 +1,11 @@
-import gen1 from "./components/Header/Generations/gen1"
-import gen2 from "./components/Header/Generations/gen2"
-import gen3 from "./components/Header/Generations/gen3"
-import gen4 from "./components/Header/Generations/gen4"
-
-import Logo from "./components/Header/Logo"
+import Gen1 from "./components/Header/Generations/Gen1"
+import Gen2 from "./components/Header/Generations/Gen2"
+import Gen3 from "./components/Header/Generations/Gen3"
+import Gen4 from "./components/Header/Generations/Gen4"
 
 import Evolution from "./components/Home/Card-Info/Evolution"
+import TypeEffect from "./components/Home/Card-Info/TypeEffect"
 import logo from "./components/Home/Card-Info/logo"
-import TypeEffect from "./components/Home/Card-Info/Type-Effect"
 
 import Search from "./components/Home/Searchh"
 
@@ -19,8 +17,13 @@ const App = () => {
     // JSX components adalah function yang me return JSX
     <div>
       <h1>Hello, World!</h1>
-      <Hello> </Hello>
-      <World> </World>
+      <Gen1> </Gen1>
+      <Gen2> </Gen2>
+      <Gen3> </Gen3>
+      <Gen4> </Gen4>
+      <Evolution> </Evolution>
+      <TypeEffect> </TypeEffect>
+      <logo> </logo>
     </div>
   );
 };
