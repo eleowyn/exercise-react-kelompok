@@ -1,7 +1,7 @@
 import Gen1 from "./components/Header/Generations/Gen1.js"
 import Gen2 from "./components/Header/Generations/Gen2.js"
 import Gen3 from "./components/Header/Generations/Gen3.js"
-import Gen4 from "./components/Header/Generations/Gen4.js"
+// import Gen4 from "./components/Header/Generations/Gen4.js"
 
 import Evolution from "./components/Home/Card-Info/Evolution"
 import TypeEffect from "./components/Home/Card-Info/TypeEffect"
