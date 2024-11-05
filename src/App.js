@@ -1,7 +1,4 @@
-import Gen1 from "./components/Header/Generations/Gen1.js"
-import Gen2 from "./components/Header/Generations/Gen2.js"
-import Gen3 from "./components/Header/Generations/Gen3.js"
-// import Gen4 from "./components/Header/Generations/Gen4.js"
+import Header from "./components/Header/Header.js"
 
 import Evolution from "./components/Home/Card-Info/Evolution"
 import TypeEffect from "./components/Home/Card-Info/TypeEffect"
@@ -17,10 +14,7 @@ const App = () => {
     // JSX components adalah function yang me return JSX
     <div>
       <h1>Hello, World!</h1>
-      <Gen1> </Gen1>
-      <Gen2> </Gen2>
-      <Gen3> </Gen3>
-      <Gen4> </Gen4>
+      <Header></Header>
       <Evolution> </Evolution>
       <TypeEffect> </TypeEffect>
       <logo> </logo>
